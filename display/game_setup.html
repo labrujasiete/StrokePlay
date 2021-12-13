@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Setup</title>
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/game_setup.css">
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/game_setup.js"></script>
+
+<script>
+
+
+</script>
+</head>
+<body>
+    <select id="course_select" class="course_select neumorph">
+       <option value="none"> Select Golf Course...</option>
+    </select>
+
+    <div class="tees_icons">
+        <div class="each_tee neumorph">
+            <img class="tee_tag" data-id="black" src="../assets/icons/black_tee.png">
+        </div>
+        <div class="each_tee neumorph">
+            <img class="tee_tag" data-id="white" src="../assets/icons/white_tee.png">
+        </div>
+        <div class="each_tee neumorph">
+            <img class="tee_tag" data-id="blue" src="../assets/icons/blue_tee.png">
+        </div>
+        <div class="each_tee neumorph">
+            <img class="tee_tag" data-id="red" src="../assets/icons/red_tee.png">
+        </div>
+        <div class="each_tee neumorph">
+            <img class="tee_tag" data-id="yellow" src="../assets/icons/yellow_tee.png">
+        </div>
+    </div>
+
+    <div class="players_wrap"></div>
+    <div class="footer"></div>
+    <img src="../assets/icons/add_player.png" class="add_player_btn neumorph">
+    <div class="bottom_bar">Let's Play<img class="play_icon" src="../assets/icons/play_shadow.png"></div>
+    <div onclick='screen_clicked("screener")' class="screener">
+        <div class="token_selector_wrap"></div>
+    </div>
+    
+<script>
+   addPlayer();
+</script>
+</body>
+</html>

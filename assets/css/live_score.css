@@ -1,0 +1,65 @@
+:root {
+    --neumorphBlack2: #282b2b;
+  }
+
+:root {
+--neumorphBlack: #25262c;
+}
+
+
+  
+  
+  @font-face{
+      font-family: 'roboReg';
+      src: url("../fonts/roboto/Roboto-Regular.ttf");
+  }
+
+  @font-face{
+    font-family: 'roboLi';
+    src: url("../fonts/roboto/Roboto-Light.ttf");
+}
+
+@font-face{
+    font-family: 'roboTi';
+    src: url("../fonts/roboto/Roboto-Thin.ttf");
+}
+
+  @font-face{
+    font-family: 'raleway';
+    src: url("../fonts/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: 'lobster';
+    src: url("../fonts/Lobster-Regular.ttf");
+}
+
+
+
+html{
+    background-image: url(../img/background.jpg);
+    
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'roboReg';
+    margin: 0;
+}
+
+.neumorph{
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px #0c0c0e, -3px -3px 10px #5a5d6e;
+    transition: .3s;
+    background-color: #262835;
+}
+
+input:focus{
+    outline: none;
+}
